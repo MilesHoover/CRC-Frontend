@@ -4,12 +4,13 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
-fetch ('https://ak2nkurklj.execute-api.us-east-1.amazonaws.com/prod/count')
-.then(res => res.json())
-.then(data => document.getElementById('pagecount').innerText=data)
-
 (function() {
   "use strict";
+
+  fetch ('https://ak2nkurklj.execute-api.us-east-1.amazonaws.com/prod/count')
+  .then(res => res.json())
+  .then(data => document.getElementById('pagecount').innerText=data)
+
 
   /**
    * Easy selector helper function
