@@ -10,8 +10,10 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img//favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/img//favicon-16x16.png">
+  <link rel="manifest" href="assets/img//site.webmanifest">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -24,15 +26,10 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-  <!-- Template Main CSS File -->
+  <!-- Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: iPortfolio - v3.7.0
-  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+  <!-- ======================================================== -->
 </head>
 
 <body>
@@ -45,7 +42,7 @@
     <div class="d-flex flex-column">
 
       <div class="profile">
-        <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
+        <img src="assets/img/image-coming-soon.webp" alt="" class="img-fluid rounded-circle">
         <h1 class="text-light"><a href="index.html">Miles Hoover</a></h1>
         <div class="social-links mt-3 text-center">
           <a href="https://www.linkedin.com/in/miles-h-b94725231" target="_blank" rel="noopener noreferrer" class="linkedin"><i class="bi bi-linkedin"></i></a>
@@ -75,7 +72,7 @@
   <main id="main">
 
     <!-- ======= About Section ======= -->
-    <section id="about" class="about">
+    <section id="about"  class="d-flex flex-column justify-content-center align-items-center">
       <div class="container">
 
         <div class="section-title">
@@ -83,9 +80,9 @@
         </div>
 
         <div class="row">
-          <div class="col-lg-4">
-            <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
-          </div>
+          <!-- <div class="col-lg-4"> -->
+            <!-- <img src="assets/img/profile-img.jpg" class="img-fluid" alt=""> -->
+          <!-- </div> -->
           <div class="col-lg-8 pt-4 pt-lg-0 content">
             <h3>Developer</h3>
             <p class="fst-italic">
@@ -107,7 +104,7 @@
     </section><!-- End About Section -->
 
     <!-- ======= Skills Section ======= -->
-    <section id="skills" class="skills section-bg">
+    <section id="skills" class="d-flex flex-column justify-content-center align-items-center">
       <div class="container">
 
         <div class="section-title">
@@ -120,7 +117,8 @@
             <div class="col-lg-6">
               <h3>Tools</h3>
               <ul>
-                <li><i class="bi bi-chevron-right"></i> <span>AWS</span></li>
+                <li><i class="bi bi-chevron-right"></i> <span>AWS S3, Cloudfront, Route53, Lambda, DynamoDB</span></li>
+                <li><i class="bi bi-chevron-right"></i> <span>Terraform, AWS Cloudformation</span></li>
                 <li><i class="bi bi-chevron-right"></i> <span>Python</span></li>
                 <li><i class="bi bi-chevron-right"></i> <span>SQLite</span></li>
                 <li><i class="bi bi-chevron-right"></i> <span>GIT</span></li>
@@ -130,9 +128,10 @@
               <h3>Concepts</h3>
               <ul>
                 <li><i class="bi bi-chevron-right"></i> <span>Infrastructure as Code</span></li>
-                <li><i class="bi bi-chevron-right"></i> <span>Continuous Integration & Continuous Development</span></li>
+                <li><i class="bi bi-chevron-right"></i> <span>Continuous Integration & Continuous Deployment</span></li>
                 <li><i class="bi bi-chevron-right"></i> <span>Testing & Monitoring</span></li>
                 <li><i class="bi bi-chevron-right"></i> <span>Source Control</span></li>
+                <li><i class="bi bi-chevron-right"></i> <span>Object Oriented Programming</span></li>
               </ul>
             </div>
           </div>
@@ -140,7 +139,7 @@
     </section><!-- End Skills Section -->
 
     <!-- ======= Resume Section ======= -->
-    <section id="resume" class="resume">
+    <section id="resume" class="d-flex flex-column justify-content-center align-items-center">
       <div class="container">
 
         <div class="section-title">
@@ -156,7 +155,7 @@
               <p><em>Lexington, KY</em></p>
               <ul>
                 <li>Provided high quality technical support to a 300+ user base</li>
-                <li>Administrated Windows Active Directory over our network</li>
+                <li>Administrated Windows Active Directory for a large network</li>
                 <li>Imaged & deployed 50+ PCs with customized operating systems</li>
                 <li>Utilized ServiceNow to organize and track tickets</li>
               </ul>
@@ -179,7 +178,7 @@
     </section><!-- End Resume Section -->
 
     <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio section-bg">
+    <section id="portfolio" class="d-flex flex-column justify-content-center align-items-center">
       <div class="container">
 
         <div class="section-title">
@@ -200,7 +199,10 @@
                 More information about this project can be found in this <a href="">blog post</a>
               </p>
               <p>
-                <strong>Skills:</strong> AWS, Terraform, Github Actions, Testing, Python
+                <strong>Skills:</strong> AWS, Terraform, Github Actions, Testing, Python, REST API
+              </p>
+              <p>
+                <a href="https://github.com/MilesHoover/CRC-Backend">Github</a>
               </p>
             </div>
           </div>
@@ -211,10 +213,13 @@
                 Python File Checker
               </h3>
               <p>
-                Test
+                This file checker tool is used to sort out cluttered folders with many different file types. It is programmed to parse through a folder of mixed files, identify and store any ".txt" files inside a SQLite database, and then move the identified files into a new folder.
               </p>
               <p>
                 <strong>Skills:</strong> Python, SQLite, OOP
+              </p>
+              <p>
+                <a href="https://github.com/MilesHoover/File-Mover">Github</a>
               </p>
             </div>
           </div>
@@ -225,10 +230,13 @@
                 SQLite Library Database
               </h3>
               <p>
-                Test
+                This is a sample library database I have created in order to learn the fundamentals of database design and the implementation of SQLite.
               </p>
               <p>
                 <strong>Skills:</strong> SQLite
+              </p>
+              <p>
+                <a href="https://github.com/MilesHoover/library-database">Github</a>
               </p>
             </div>
           </div>

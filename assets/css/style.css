@@ -220,7 +220,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
-  color: black;
+  color: #050d18;
 }
 #hero p {
   color: #424242;
@@ -254,6 +254,13 @@ h1, h2, h3, h4, h5, h6 {
 section {
   padding: 60px 0;
   overflow: hidden;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #616161;
+  border-left: #fdfefe;
+  border-right: #fdfefe;
+  border-bottom: #fdfefe;
+  min-height: 100vh;
 }
 
 .section-bg {
@@ -288,64 +295,64 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-.about {
+#about {
   width: 100%;
 }
-.about .content h3 {
+#about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #173b6c;
+  color: #050d18;
 }
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
-.skills {
+#skills {
   width: 100%;
-  /* height: 100vh; */
 }
-.skills h3 {
+#skills h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #173b6c;
+  color: #050d18;
+  margin-bottom: 10px;
 }
-.skills ul {
+#skills ul {
   list-style: none;
   padding: 0;
 }
-.skills ul li {
+#skills ul li {
   margin-bottom: 10px;
   display: flex;
   align-items: center;
 }
-.skills ul i {
+#skills ul i {
   font-size: 16px;
   margin-right: 5px;
   color: #149ddd;
   line-height: 0;
 }
-.skills p:last-child {
+#skills p:last-child {
   margin-bottom: 0;
 }
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
-.resume {
+#resume {
   width: 100%;
 }
-.resume .resume-title {
+#resume .resume-title {
   font-size: 26px;
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
   color: #050d18;
 }
-.resume .resume-item {
+#resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
   border-left: 2px solid #1f5297;
   position: relative;
 }
-.resume .resume-item h4 {
+#resume .resume-item h4 {
   line-height: 18px;
   font-size: 18px;
   font-weight: 600;
@@ -354,7 +361,7 @@ section {
   color: #050d18;
   margin-bottom: 10px;
 }
-.resume .resume-item h5 {
+#resume .resume-item h5 {
   font-size: 16px;
   background: #e4edf9;
   padding: 5px 15px;
@@ -362,16 +369,16 @@ section {
   font-weight: 600;
   margin-bottom: 10px;
 }
-.resume .resume-item ul {
+#resume .resume-item ul {
   padding-left: 20px;
 }
-.resume .resume-item ul li {
+#resume .resume-item ul li {
   padding-bottom: 10px;
 }
-.resume .resume-item:last-child {
+#resume .resume-item:last-child {
   padding-bottom: 0;
 }
-.resume .resume-item::before {
+#resume .resume-item::before {
   content: "";
   position: absolute;
   width: 16px;
@@ -382,14 +389,13 @@ section {
   background: #fff;
   border: 2px solid #1f5297;
 }
-
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
-.portfolio {
+#portfolio {
   width: 100%;
 }
-.portfolio .portfolio-item {
+#portfolio .portfolio-item {
   margin-bottom: 30px;
 }
 
