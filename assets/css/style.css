@@ -71,25 +71,17 @@ h1, h2, h3, h4, h5, h6 {
   width: 120px;
   border: 8px solid   #616161;
 }
-/* #header .profile h1 { */
-  /* font-size: 24px; */
-  /* margin: 0; */
-  /* padding: 0; */
-  /* font-weight: 600; */
-  /* -moz-text-align-last: center; */
-  /* text-align-last: center; */
-  /* text-align: center; */
-  /* font-family: "Poppins", sans-serif; */
-/* } */
 #header .profile h1 {
   font-size: 24px;
   font-weight: 600;
   text-align: center;
   font-family: "Poppins", sans-serif;
-}
-#header .profile h1 a {
   color: #fff;
-  text-decoration: none;
+}
+#header .profile p {
+  color: #149ddd;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
 }
 #header .profile .social-links a {
   font-size: 18px;
@@ -143,7 +135,6 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   color: #e0e0e0 ;
   padding: 12px 15px;
-  margin-bottom: 8px;
   transition: 0.3s;
   font-size: 15px;
 }
@@ -327,6 +318,11 @@ section {
 }
 #skills p:last-child {
   margin-bottom: 0;
+}
+@media (max-width: 991px) {
+  .skills-item {
+    margin-bottom: 8%;
+  }
 }
 /*--------------------------------------------------------------
 # Resume
