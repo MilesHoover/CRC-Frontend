@@ -7,7 +7,7 @@
 (function() {
   "use strict";
 
-  fetch ('https://l4rbd59ypk.execute-api.us-east-1.amazonaws.com/prod/count')
+  fetch ('https://nk445ckafb.execute-api.us-east-1.amazonaws.com/prod/count')
   .then(res => res.json())
   .then(data => document.getElementById('pagecount').innerText=data)
 
