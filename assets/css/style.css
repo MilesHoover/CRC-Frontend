@@ -323,6 +323,9 @@ section {
   .skills-item {
     margin-bottom: 8%;
   }
+  #skills ul li {
+    align-items:center;
+  }
 }
 /*--------------------------------------------------------------
 # Resume
